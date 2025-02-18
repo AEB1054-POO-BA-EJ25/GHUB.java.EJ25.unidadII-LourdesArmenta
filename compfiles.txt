@@ -1,2 +1,4 @@
 ./miTest/AppTest.java
+./miPrincipal/Persona.java
+./miPrincipal/Alumno.java
 ./miPrincipal/Principal.java
