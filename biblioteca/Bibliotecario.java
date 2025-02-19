@@ -15,7 +15,7 @@ public class Bibliotecario extends Persona{
     }
 
     //Métodos personalizados
-    public void registrarPrestamo(Usuario usuario){
+    public void registrarPrestamo(Usuario usuario,Ejemplar ejemplar){
 
     }
 

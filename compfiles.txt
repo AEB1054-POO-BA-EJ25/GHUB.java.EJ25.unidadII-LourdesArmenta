@@ -3,6 +3,7 @@
 ./biblioteca/Libro.java
 ./biblioteca/Prestamo.java
 ./biblioteca/Usuario.java
+./biblioteca/Ejemplar.java
 ./biblioteca/Invitado.java
 ./biblioteca/Bibliotecario.java
 ./miPrincipal/Persona.java
