@@ -37,6 +37,36 @@ public class Principal {
         a1.saludar();
         a2.saludar();
 
+        //Sobre escritura de Métodos
+
+        Animal animal1 =new Animal("Hombre",31);
+
+        animal1.saludar();
+
+        Perro perro1 = new Perro("Fiona",1,"Shitzu");
+
+        perro1.saludar();
+
+        Gato gato1 = new Gato("Pani",2,"Persa");
+
+        gato1.saludar();
+
+
+        Perro perro2=new Perro(); //invoco al constructor vacio
+
+        Perro perro3 = new Perro("Paulino",4,"criollo");
+
+        perro2.setNombre("Firulais");
+        perro2.setEdad(1);
+
+        System.out.println(perro2.toString());
+
+        System.out.println(perro2);
+
+
+
+
+
 
        
     }
