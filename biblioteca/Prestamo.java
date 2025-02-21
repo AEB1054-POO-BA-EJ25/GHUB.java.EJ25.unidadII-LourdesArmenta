@@ -27,6 +27,26 @@ public class Prestamo{
         this.persona = persona;
     }
 
+    //Métodos personalizados
+    public Date calcularFechaFin(Date fecha, int dias){
+        return null;
+
+    }
+
+    public boolean renovarPrestamo(int dias){
+        return true;
+
+    }
+
+    public void devolverLibro(){
+
+    }
+
+    public String consultarInformacionPrestamo(){
+        return null;
+
+    }
+
     //Getter y Setter
 
     public int getIdPrestamo() {

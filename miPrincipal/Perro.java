@@ -1,6 +1,7 @@
 package miPrincipal;
 public class Perro extends Animal{
     private String raza;
+
     public Perro(){
 
     }
