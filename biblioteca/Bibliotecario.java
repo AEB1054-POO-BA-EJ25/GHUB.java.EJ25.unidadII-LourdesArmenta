@@ -15,7 +15,7 @@ public class Bibliotecario extends Persona{
     }
 
     //Métodos personalizados
-    public void registrarPrestamo(Usuario usuario,Ejemplar ejemplar){
+    public void registrarPrestamo(Usuario usu,Ejemplar eje){
 
     }
 
@@ -23,7 +23,8 @@ public class Bibliotecario extends Persona{
 
     }
 
-    public void buscarLibro(String libro){
+    public Libro buscarLibro(String libro){
+        return null;
 
     }
 

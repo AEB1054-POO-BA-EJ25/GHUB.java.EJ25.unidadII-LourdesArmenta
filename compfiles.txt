@@ -1,9 +1,12 @@
 ./miTest/AppTest.java
 ./biblioteca/Persona.java
+./biblioteca/ServicioNotificacion.java
 ./biblioteca/Libro.java
 ./biblioteca/Prestamo.java
+./biblioteca/Autor.java
 ./biblioteca/Usuario.java
 ./biblioteca/Ejemplar.java
+./biblioteca/Biblioteca.java
 ./biblioteca/Invitado.java
 ./biblioteca/Bibliotecario.java
 ./miPrincipal/Persona.java

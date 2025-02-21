@@ -9,17 +9,19 @@ public class Autor {
     //constructores
     public Autor() {
     }
-
     public Autor(int idNombre, String nombre, String nacionalidad) {
         this.idNombre = idNombre;
         this.nombre = nombre;
         this.nacionalidad = nacionalidad;
     }
+    
 
     //Métodos personalizado
     public void gregarLibro(Libro libro){
 
     }
+
+
 
     //getter y setter
     public int getIdNombre() {

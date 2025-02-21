@@ -10,8 +10,6 @@ public class Gato extends Animal{
         this.raza=raza;
     }
 
-    public void saludar(){
-        System.out.println("Soy un gato y saludo diciento miau miau");
-    }
+   
 
 }

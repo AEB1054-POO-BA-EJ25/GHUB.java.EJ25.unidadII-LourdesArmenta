@@ -1,8 +1,5 @@
 package miPrincipal;
-
 public class Principal {
-    
-
     public static void main(String[] args) {
         //Crear una instancia de la clase Persona
         Persona p1 = new Persona(); //invoco a su constructor vacio
@@ -27,7 +24,6 @@ public class Principal {
         //invoco al método saludar de Persona
         p1.saludar();
         p2.saludar();
-
 
         //invocar al método estudiar de Persona
 
@@ -62,6 +58,29 @@ public class Principal {
         System.out.println(perro2.toString());
 
         System.out.println(perro2);
+
+        int a = 1250;
+
+        Integer b = 1250;
+
+        System.out.println("Valor de a= "+a);
+
+
+        System.out.println("Valor de b= "+b.toString());
+
+        System.out.println("Valor de b= "+b);
+
+        Perro p3 = new Perro();
+        p3.setNombre("Benito");
+        p3.setEdad(8);
+        
+        System.out.println("Nombre: "+p3.getNombre()+" "+"Edad: "+p3.getEdad());
+
+        System.out.println(p3.toString());
+
+
+
+
 
 
 

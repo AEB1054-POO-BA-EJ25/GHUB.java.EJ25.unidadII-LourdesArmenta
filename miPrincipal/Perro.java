@@ -11,14 +11,18 @@ public class Perro extends Animal{
     }
 
     //sobreescribiendo el método saludar que hereda de Animal
+    @Override
     public void saludar(){
-        System.out.println("El perro esta saludando y hace gua gua");
-    }
+      System.out.println("Soy un perro y saludo haciendo gua gua");
+   }
+    
     
     @Override
     public String toString() {
-        return  getNombre() + " " + getEdad() ;
+        return  "Nombre: "+getNombre() + " Edad:" + getEdad() ;
+       
     }
+        
 
     
 
