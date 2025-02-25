@@ -88,6 +88,13 @@ public class Principal {
         //La linea de arriba no marca error poruqe implicitamente conviernte el 5 en double
         // y por lo tanto utilizar el metodos sumar con los dos argumentos double
 
+        Forma forma = new Forma();
+        System.out.println("El area de un circulo = "+forma.calcularArea(12.75));
+        System.out.println("El area de un triángulo = "+forma.calcularArea(5, 10));
+        System.out.println("El area del cuadrado = "+forma.calcularArea(3.5F));
+
+
+
 
 
 
