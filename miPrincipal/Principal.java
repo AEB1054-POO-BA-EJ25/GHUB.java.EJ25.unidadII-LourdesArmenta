@@ -93,6 +93,32 @@ public class Principal {
         System.out.println("El area de un triángulo = "+forma.calcularArea(5, 10));
         System.out.println("El area del cuadrado = "+forma.calcularArea(3.5F));
 
+        //Creacion del objeto
+        /*
+         * Formato para definir una referencia a un objeto
+         *   NombreClase varRefencia
+         * 
+         * Formato para crear un crear
+         *    varReferencia = new NombreClase(argumentos_constructor)
+         */
+
+         Punto punto1;
+         punto1 = new Punto(); //incovocando al constructor vacio
+
+         Punto punto2;
+         punto2 = new Punto(2,3);
+
+         System.out.println("Coordenado en punto1:"+punto1.getX()+","+punto1.getY());
+         System.out.println("Coordenado en punto2:"+punto2.getX()+","+punto2.getY());
+
+         
+
+
+
+
+
+
+
 
 
 
