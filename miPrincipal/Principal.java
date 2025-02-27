@@ -111,6 +111,23 @@ public class Principal {
          System.out.println("Coordenado en punto1:"+punto1.getX()+","+punto1.getY());
          System.out.println("Coordenado en punto2:"+punto2.getX()+","+punto2.getY());
 
+         punto1.desplegar();
+         punto2.desplegar();
+
+         punto1.leer();
+         punto2.leer();
+        
+         punto1.desplegar();
+         punto2.desplegar();
+
+         double d = punto1.calcularDistancia(punto2);
+         System.out.println("La distancia entre los puntos = "+d);
+
+
+
+
+
+
          
 
 
