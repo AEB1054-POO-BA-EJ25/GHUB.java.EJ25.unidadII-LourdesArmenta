@@ -1,4 +1,6 @@
 package miPrincipal;
+import automovil.*;
+
 public class Principal {
     public static void main(String[] args) {
         //Crear una instancia de la clase Persona
@@ -122,6 +124,30 @@ public class Principal {
 
          double d = punto1.calcularDistancia(punto2);
          System.out.println("La distancia entre los puntos = "+d);
+
+         //uso del paquete automovil
+         Automovil auto = new Automovil();
+         auto.setMarca("Honda");
+         auto.setModelo("CRV");
+
+         Motor motor = new Motor("5.0",460);
+
+         auto.setMotor(motor);
+
+         System.out.println("El automovil: "+auto.getMarca()+" "+
+                            auto.getModelo()+" tien un motor: "+
+                            auto.getMotor().getTipo()+" Potencia:"+auto.getMotor().getPotencia());
+
+        Automovil auto2 = new Automovil("Ford","Lobo","6.0",60000);
+
+        System.out.println("El automovil: "+auto2.getMarca()+" "+
+                            auto2.getModelo()+" tien un motor: "+
+                            auto2.getMotor().getTipo()+" Potencia:"+auto2.getMotor().getPotencia());
+
+
+
+         
+
 
 
 

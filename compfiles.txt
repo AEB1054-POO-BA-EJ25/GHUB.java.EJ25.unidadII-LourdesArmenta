@@ -19,3 +19,5 @@
 ./miPrincipal/Animal.java
 ./miPrincipal/Perro.java
 ./miPrincipal/Edad.java
+./automovil/Motor.java
+./automovil/Automovil.java
