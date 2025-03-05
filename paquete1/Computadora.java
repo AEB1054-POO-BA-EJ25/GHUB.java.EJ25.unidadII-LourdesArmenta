@@ -13,6 +13,13 @@ public class Computadora {
         this.modelo = modelo;
         this.monitor = monitor;
     }
+
+    //Metodo personalizado
+    public String obtenerDetalles(){
+        return "Computadora: "+this.marca+" Modelo:"+this.modelo+
+               " Monitor: "+this.monitor.getMarca()+" Tamaño: "+
+               this.monitor.getTamanio()+" pulgadas";
+    }
         
 
     public String getMarca() {

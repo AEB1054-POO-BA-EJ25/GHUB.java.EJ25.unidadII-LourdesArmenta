@@ -1,8 +1,6 @@
 package miPrincipal;
 import automovil.*;
 import paquete1.*;
-
-
 public class Principal {
     public static void main(String[] args) {
         //Crear una instancia de la clase Persona
@@ -185,6 +183,26 @@ public class Principal {
                             " Modelo: "+compu3.getModelo()+"\n"+
                             "Monitor Marca: "+compu3.getMonitor().getMarca()+
                             " Tamanio:"+compu3.getMonitor().getTamanio());
+        
+        
+        
+        Monitor monitor2 = new Monitor("LG",25);
+        Computadora compu4 = new Computadora("Toshiba","XL",monitor2);
+
+        System.out.println(compu4.obtenerDetalles());
+
+        //Relacion de asociacion
+
+        Estudiante estudiante1 = new Estudiante("Pedro Lopez");
+        Profesor profesor1 = new Profesor("Ludovico Peluche");
+
+        System.out.println(profesor1.obtenerDetalles());
+        System.out.println(estudiante1.obtenerDetalles());
+
+        profesor1.ensenar(estudiante1);
+
+        
+
 
 
 

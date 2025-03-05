@@ -1,5 +1,7 @@
 ./paquete1/Monitor.java
+./paquete1/Profesor.java
 ./paquete1/Computadora.java
+./paquete1/Estudiante.java
 ./miTest/AppTest.java
 ./biblioteca/Persona.java
 ./biblioteca/ServicioNotificacion.java
