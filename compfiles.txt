@@ -1,7 +1,9 @@
+./paquete1/Auto2.java
 ./paquete1/Monitor.java
 ./paquete1/Profesor.java
 ./paquete1/Computadora.java
 ./paquete1/Estudiante.java
+./paquete1/Propietario2.java
 ./miTest/AppTest.java
 ./biblioteca/Persona.java
 ./biblioteca/ServicioNotificacion.java

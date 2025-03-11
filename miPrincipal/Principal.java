@@ -201,6 +201,24 @@ public class Principal {
 
         profesor1.ensenar(estudiante1);
 
+        Auto2 lista[]= new Auto2[2];
+        lista[0]= new Auto2(123L,"Chevrolet", "LT ",2025);
+        lista[1]= new Auto2(456L,"Honda","CRV",2010);
+        
+        Propietario2 prop = new Propietario2(12345,"Lourdes Armenta");
+        prop.setListaAutos(lista);
+
+        System.out.println(prop.obtenerDetalles());
+
+        Auto2 []listaAutos = prop.getListaAutos();
+
+        System.out.println("Cantidad de Autos: "+listaAutos.length);
+
+        for (int i=0; i<listaAutos.length;i++){
+            System.out.println(listaAutos[i].obtenerDetalles());
+        }
+
+
         
 
 
