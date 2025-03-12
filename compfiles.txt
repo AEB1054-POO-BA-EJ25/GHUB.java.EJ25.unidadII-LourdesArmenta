@@ -1,3 +1,4 @@
+./paquete1/Borrame.java
 ./paquete1/Auto2.java
 ./paquete1/Monitor.java
 ./paquete1/Profesor.java

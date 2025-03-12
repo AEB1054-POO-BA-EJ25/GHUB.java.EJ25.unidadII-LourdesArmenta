@@ -1,8 +1,55 @@
 package miPrincipal;
 import automovil.*;
 import paquete1.*;
+import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
+        //crear un menu de opciones
+        Scanner teclado = new Scanner(System.in);
+        int opc = 0;
+        do{
+            System.out.println("**********************");
+            System.out.println("    MENU PRINCIPAL");
+            System.out.println("**********************");
+            System.out.println(" 1) Persona");
+            System.out.println(" 2) Alumno");
+            System.out.println(" 3) Animal");
+            System.out.println(" 4) Calculadora");
+            System.out.println(" 5) Forma");
+            System.out.println(" 6) Punto");
+            System.out.println(" 7) Automovil");
+            System.out.println(" 8) Computadora");
+            System.out.println("\t 0) Salir");
+            opc = teclado.nextInt();
+            switch (opc) {
+                case 1:
+                    
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    break;
+                case 7:
+                    break;
+                case 8:
+                    break;
+                case 0:
+                   System.out.println("Hasta Luego!");
+                   break;
+            
+                default:
+                System.out.println("Opcion incorrecta, intente de nuevo");
+            }
+
+        } while (opc !=0);
+
+
         //Crear una instancia de la clase Persona
         Persona p1 = new Persona(); //invoco a su constructor vacio
         Persona p2 = new Persona("Juan",18,"12345");
