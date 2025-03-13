@@ -1,6 +1,5 @@
 package miPrincipal;
-import automovil.*;
-import paquete1.*;
+
 import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
@@ -19,6 +18,7 @@ public class Principal {
             System.out.println(" 6) Punto");
             System.out.println(" 7) Automovil");
             System.out.println(" 8) Computadora");
+            System.out.println(" 9) Estudiante");
             
             System.out.println("\t 0) Salir");
             opc = teclado.nextInt();
@@ -48,6 +48,9 @@ public class Principal {
                 case 8:
                     AppComputadora.menu();
                     break;
+                case 9:
+                    AppEstudiante.menu();
+                    break;
                 case 0:
                    System.out.println("Hasta Luego!");
                    break;
@@ -60,32 +63,12 @@ public class Principal {
 
 
 
-        
-
-
-        int a = 1250;
-
-        Integer b = 1250;
-
-        System.out.println("Valor de a= "+a);
-
-
-        System.out.println("Valor de b= "+b.toString());
-
-        System.out.println("Valor de b= "+b);
+    
 
         
 
 
-        //Relacion de asociacion
-
-        Estudiante estudiante1 = new Estudiante("Pedro Lopez");
-        Profesor profesor1 = new Profesor("Ludovico Peluche");
-
-        System.out.println(profesor1.obtenerDetalles());
-        System.out.println(estudiante1.obtenerDetalles());
-
-        profesor1.ensenar(estudiante1);
+       /*/
 
         Auto2 lista[]= new Auto2[2];
         lista[0]= new Auto2(123L,"Chevrolet", "LT ",2025);
@@ -103,36 +86,10 @@ public class Principal {
         for (int i=0; i<listaAutos.length;i++){
             System.out.println(listaAutos[i].obtenerDetalles());
         }
-
-
-        
-
-
-
-
-
-
+         */
 
 
          
-
-
-
-
-
-
-
-         
-
-
-
-
-
-
-
-
-
-
 
 
 

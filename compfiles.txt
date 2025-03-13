@@ -20,6 +20,7 @@
 ./miPrincipal/Calculadora.java
 ./miPrincipal/Persona.java
 ./miPrincipal/AppForma.java
+./miPrincipal/AppEstudiante.java
 ./miPrincipal/Punto.java
 ./miPrincipal/Forma.java
 ./miPrincipal/AppComputadora.java
