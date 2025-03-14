@@ -53,12 +53,26 @@ public class AppPersona {
                     break;
                 case 4:
                     teclado.nextLine(); //limpio el buffer
-                    System.out.println("Dame la posicion de la persona que quieres consultar:");
-                    int pos = teclado.nextInt();
-                    Persona p2 = lista[pos];
-                    System.out.println("Nombre de la persona: "+p2.getNombre());
-                    System.out.println("Edad de la persona: "+p2.getEdad());
-                    System.out.println("DNI de la persona: "+p2.getDni());
+                    //System.out.println("Dame la posicion de la persona que quieres consultar:");
+                    System.out.print("Dame nombre de la persona:");
+                    nombre = teclado.nextLine();
+                    for (int j=0;j<lista.length;j++){
+                        Persona p = lista[j];
+                        if (p !=null){
+                            if (nombre.equals(p.getNombre())){
+                            //encontro a la persona
+                            System.out.println("Nombre de la persona: "+p.getNombre());
+                            System.out.println("Edad de la persona: "+p.getEdad());
+                            System.out.println("DNI de la persona: "+p.getDni());
+                            break;
+                            }
+                        }
+                    }
+                    //int pos = teclado.nextInt();
+                    //Persona p2 = lista[pos];
+                    //System.out.println("Nombre de la persona: "+p2.getNombre());
+                    //System.out.println("Edad de la persona: "+p2.getEdad());
+                    //System.out.println("DNI de la persona: "+p2.getDni());
 
 
                     break;
